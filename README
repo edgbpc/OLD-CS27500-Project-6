@@ -1,0 +1,41 @@
+Author: Eric Goodwin
+Class: CS 2750 Section E01 Assignment 6
+Dr. Sanjiv Bhatia
+
+Makefile
+script allows for creation of mysh executable file.  
+command make mysh creates the executable
+command make clean to remove all o and ~ files
+
+makeargv.c
+This file provided by Dr. Sanjiv Bhatia and used with permission
+
+mysh.c
+
+In PS1 parsing, my case statement only checks for the required options from the assignment specifications and ignores all others 
+the prompt is rebuilt every time the while loop is processed in order to keep the current directory accurate in the prompt.
+
+used unset PS1 to validate the program does display $ when there is no PS1 defined
+
+cd and exit commands are built in to the shell 
+
+extra credit portion of the assignment was accomplished by turning ignoring ctrl c at start of the while loop and when if statement that forks the child process is executed, default behavior for ctrl c is re-enabled.  When child process terminates, either via ctrl c or natural completion of the process, ctrl c is one again ignored when the while loop repeats.
+
+added a message when ctrl c is used that describes when it can be used
+
+added function to replace string in HOME with ~ to truncate working directory.
+
+
+
+shell tested using a number of different commands including:
+ls -l
+ls
+exit (built in)
+cd (built in)
+cd .. functions 
+vi 
+mysh (starting another instance of the shell)
+mkdir
+rmdir
+
+

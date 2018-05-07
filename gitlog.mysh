@@ -1,0 +1,59 @@
+commit 6c86e67b13374aa2d50162a9c648104ac608a4e4
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun May 8 21:27:07 2016 -0500
+
+    Added ~ replacement of HOME in directory string
+
+commit 62a787f0f112732612dc3bf499e965a137508682
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun May 8 20:27:06 2016 -0500
+
+    Added README file
+
+commit d0eed0568e35021517f4265314ee41d742956079
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Fri May 6 21:45:50 2016 -0500
+
+    Cleaned up unused variables
+
+commit 5e76ee2e28c21b266fd155425f5a96658dd6d455
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Fri May 6 21:31:01 2016 -0500
+
+    Added signal handling.  Resolved new line seg fault issue when just entered is pressed
+
+commit 2e5446d529373e728f2b6e865c5b2be202050b90
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Fri May 6 14:25:12 2016 -0500
+
+    Added CTRL D handling, improved file exist and execute check, removed unused code
+
+commit cf6bca17756cc486cd703fea73949ae7286e122f
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Tue May 3 20:00:13 2016 -0500
+
+    Added command execution
+
+commit e83841bf6f09555be941cd1bd37cb8f987690f94
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Mon May 2 16:17:50 2016 -0500
+
+    added creation of path to executable. validates files existance and ability to execute.
+
+commit c5566e19e0dba54faa871a4f76dbf6decd8add79
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sat Apr 30 09:38:00 2016 -0500
+
+    Added PS1 parsing and command prompt
+
+commit f6b79807d95145e2ce2ecd90af5cdd048ca144eb
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Fri Apr 29 19:18:53 2016 -0500
+
+    added provided makeargv file
+
+commit 65bd511659498817daa636923694ec9a120b071e
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Fri Apr 29 19:11:47 2016 -0500
+
+    Initial Version
